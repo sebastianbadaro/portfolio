@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Asap');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Slabo+27px');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+video {
+  height: inherit;
+}
+
+body{
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Asap', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Oswald', sans-serif;
+font-size: 16px;
+}
+
+
+
+.text
+{
+  color: white;
+  font-size: 7em;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+
+}
+
+.centrador{
+    position: relative;
+     left: -50%;
+     top: -50%;
+}
+
+.toggle{
+font-size: 50px;
+  position: absolute;
+  left: 48%;
+  top:2%;
+  color: white;
+}
+
+.main-section{
+width:100vw;
+height: 100vh;
+overflow: hidden;
+position: relative;
+margin: auto;
+
+}
+
+
+
+.perfil
+{
+width:100vw;
+height: 100vh;
+overflow: hidden;
+background-image: url("../images/brickwall.png");
+
+}
+
+.text h3{
+  font-size: 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.programming-icons-container{
+  position: relative;
+    width: 100%;
+}
+
+.programming-icons img{
+  width: 25%;
+
+}
+.programming-icons{
+  position: absolute;
+  width: 100%;
+  margin-top: 20px;
+
+}
+.no-se{
+  /* display: none; */
+}
+
+.cleaner{
+  clear: both;
+}
+
+ul ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+il{
+  display: block;
+
+}
+.main-nav{
+  background-color: black;
+    text-align: center;
+    /* display: none; */
+    font-size: 3em;
+}
+il a{
+ text-decoration: none;
+ padding:10px;
+ color: #fff;
+ display: block;
+transition: 1s;
+}
+
+.in{
+  float: right;
+  padding: 10px;
+  display: none;
+}
+
+.in:hover{
+  transform: rotate(360deg);
+  transition: 1s;
+}
+il a:hover
+{
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+
+.top-button:hover{
+  bottom: 40px;
+  transition: 1s;
+}
+
+.top-image{
+  height: 80px;
+  width: 80px;
+}
+.top-button{
+  position: fixed; /* Fixed/sticky position */
+
+   bottom: 30px; /* Place the button at the bottom of the page */
+   right: 30px; /* Place the button 30px from the right */
+   z-index: 99; /* Make sure it does not overlap */
+   border: none; /* Remove borders */
+   outline: none; /* Remove outline */
+   cursor: pointer; /* Add a mouse pointer on hover */
+  transition: 1s;
+}
+
+.perfil-content{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 92%;
+  margin: 50px;
+  border: solid 1px rgb(53, 52, 73);
+  border-radius: 10px;
+}
+
+.texto-perfil{
+    width: 60%;
+    margin-top: 7%;
+line-height: 2.5em;
+}
+
+.texto-perfil h2{
+  font-size: 3.5em;
+  margin-bottom: 5;
+}
+
+.texto-perfil p{
+  padding: 45px 0;
+  font-size: 1.5em;
+}
+
+
+.imegen-perfil{
+  padding-left: 10px;
+
+}
+
+.imegen-perfil img {
+
+border-radius: 50%;
+width: 450px;
+height: 450px;
+border: solid 1px rgb(53, 52, 73);
+}
+
+.portfolio h2{
+  font-size: 3.5em;
+  margin-bottom: 5%;
+  color: white;
+  text-align:center;
+  margin-top: 40px;
+}
+.portfolio-container{
+
+  max-width: 1200px;
+  /* background-color: white; */
+  width: 100%;
+  padding: 30px;
+ display: flex;
+  flex-direction: column;
+
+
+}
+
+.cleaner{
+  /* clear: both; */
+}
+
+.portfolio
+{
+width:100vw;
+overflow: hidden;
+position: relative;
+background-image: url("../images/escheresque_ste.png");
+padding-bottom:10%;
+}
+
+.web-3,.web-1,.web-2{
+  width: 100%;
+  position: relative;
+}
+
+.portfolio-img{
+  width: 100%;
+}
+
+.web-detail{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: 0.5s;
+background-color: rgba(0, 0, 0, 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+}
+
+.ex-link{
+  width: 20px;
+  margin-top: 10px;
+
+}
+.web-name{
+  color: white;
+}
+
+/* .web-1{background-color: red;}
+.web-2{background-color: green;}
+.web-3{background-color: blue;} */
+
+
+.web-detail:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+@media (min-width: 640px)
+{
+  .programming-icons img {
+      width: 15%;
+  }
+}
